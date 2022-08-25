@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="P%w{7vsURJ]eADbZL3_r" x="0" y="0"><statement name="HANDLER"><block type="device_led_enable" id="abf^2$aoZ63kW_CSR,eq"><value name="on"><shadow type="logic_boolean" id="5,$mEg`JGJxp6TX.a;uO"><field name="BOOL">TRUE</field></shadow></value><next><block type="RobotCar_Keyestudio_Leds_showRed" id="{DL$C8Y-3RTnELi5^*B`"></block></next></block></statement></block><block type="device_button_event" id="}oZvnzmp=w|UZjc;v[/@" x="366" y="41"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="RobotCar_Keyestudio_Motors_move" id="E~2tQ_I0FgC!mIBtZ*W#"><value name="speed"><shadow type="speedPicker" id=")S/U(jr8bI7ad9=IxFp_"><field name="speed">50</field></shadow></value></block></statement></block><block type="device_forever" id="}!.#V[@?}08qZa!6FJvY" x="13" y="167"><statement name="HANDLER"><block type="device_show_leds" id="g:T+@+TY9Fky86mISX]z"><field name="LEDS">`
+        # # . . # 
+        . # . # . 
+        . # # . . 
+        # # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="1Dor;krkF$7`N)*$vq2C"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></next></block></statement></block></xml>
